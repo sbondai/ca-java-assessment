@@ -59,6 +59,8 @@ cd <project-directory>
 **mvn test**
 This will execute all unit and integration tests. Upon completion, Maven will provide a summary of passed and failed tests. It's recommended to address any failed tests before moving on to other operations or deployments.
 
+## Branching Strategy
+The develop branch is protected and can only be merged by a pull request reviewed by atleast 2 developers. This branch will be promoted to higher environments once signed off and tested in the dev environment.
 
 ## Troubleshooting
 
